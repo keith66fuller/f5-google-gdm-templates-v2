@@ -69,7 +69,7 @@
         restrictedSrcAddressMgmt:
           - 24.13.181.168/32
         ### (OPTIONAL) A prefix that will be used to name template resources. Because some resources require globally unique names, we recommend using a unique value.
-        uniqueString: 0525-0740-kif
+        uniqueString: kif-0525-0740
         ### (OPTIONAL) Enter the Google availability zone where you want to deploy the BIG-IP VE instance, for example 'us-central1-a'.
         zone: us-central1-a
       type: quickstart.py
